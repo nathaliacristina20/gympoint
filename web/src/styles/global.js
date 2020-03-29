@@ -1,0 +1,74 @@
+import { createGlobalStyle } from 'styled-components';
+
+import 'react-toastify/dist/ReactToastify.css';
+
+export default createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+
+    *:focus{
+        outline: 0;
+    }
+
+    html, body, #root {
+        height: 100%;
+    }
+
+    body {
+        -webkit-font-smoothing: antialiased;
+    }
+
+    body, input, button { 
+        font: 14px 'Roboto', sans-serif;
+    }
+
+    input {
+        flex: 1;
+        font-size: 16px;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        color: #999999;
+        padding: 5px;
+        width: 100%;
+
+        ::-webkit-input-placeholder {
+            color: #999999;
+            padding-left: 10px;
+        }
+
+        :-moz-placeholder { /* Firefox 18- */
+            color: #999999;
+            padding-left: 10px;
+        }
+
+        ::-moz-placeholder {  /* Firefox 19+ */
+            color: #999999;
+            padding-left: 10px;
+        }
+
+        :-ms-input-placeholder {  
+            color: #999999;
+            padding-left: 10px; 
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+    
+`;
