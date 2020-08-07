@@ -60,7 +60,11 @@ Você pode realizar requisições REST através do Insomnia
 <strong>Web</strong>
 
 - Vá para o diretório da versão web escolhida Angular ou React e rode ```yarn start``` para executar a aplicação
-- Pronto! Sua aplicação está rodando, vá até http://localhost:4200 no seu browser
+- Sua aplicação está rodando, vá até http://localhost:4200 no seu browser
+- Utilize as informações abaixo para realizar o login:
+
+<p>user: admin@gympoint.com</p>
+<p>senha: 123456</p>
 
 <strong>Mobile</strong>
 
