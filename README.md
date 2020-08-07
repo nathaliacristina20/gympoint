@@ -7,7 +7,7 @@ Plataforma de gerenciamento para academias
 </h3>
 
 <p align="center">
-  <a href="#computer-sobre-o-projeto">Sobre o projeto</a> | <a href="#rocket-tecnologias">Tecnologias</a> | <a href="#books-guia-de-instalação-e-execução">Guia de instalação e execução</a> | <a href="#pencil-como-contribuir">Como contribuir</a> | <a href="#page_with_curl-licença">Licença</a>
+  <a href="#computer-sobre-o-projeto">Sobre o projeto</a> | <a href="#rocket-tecnologias">Tecnologias</a> | <a href="#books-guia-de-instalação-e-execução">Guia de instalação e execução</a> | <a href="#page_with_curl-licença">Licença</a>
 </p>
 
 ## Preview
@@ -87,26 +87,6 @@ Pronto! Feche e abra novamente o aplicativo.
 - Execute ```yarn start```
 
 Pronto! Feche e abra novamente o aplicativo.
-
-## :pencil: Como contribuir
-
-<b>Faça um fork deste repositório</b>
-
-```bash
-# Clone o seu fork
-$ git clone url-do-seu-fork && cd gostack-gobarber-server
-
-# Crie uma branch com sua feature ou correção de bugs
-$ git checkout -b minha-branch
-
-# Faça o commit das suas alterações
-$ git commit -m 'feature/bugfix: minhas alterações'
-
-# Faça o push para a sua branch
-$ git push origin minha-branch
-```
-
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
 ## :page_with_curl: Licença
 
