@@ -1,0 +1,14 @@
+{
+  "name": "gympoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": "https://github.com/nathaliacristina20/gympoint.git",
+  "author": "Nathalia Oliveira <nathaliacristina20@hotmail.com>",
+  "license": "MIT"
+}
