@@ -54,16 +54,17 @@ class StudentControler {
       return res.status(400).json({ error: 'Student already exists.' });
     }
 
-    const { name, email, age, weight, height } = await Student.create(req.body);
+    const { id, name, email, age, weight, height } = await Student.create(
+      req.body
+    );
 
     return res.json({
-      student: {
-        name,
-        email,
-        age,
-        weight,
-        height,
-      },
+      id,
+      name,
+      email,
+      age,
+      weight,
+      height,
     });
   }
 
@@ -101,9 +102,10 @@ class StudentControler {
       }
     }
 
-    await student.update(req.body);
+    const { id } = await student.update(req.body);
 
     return res.json({
+      id,
       name,
       email,
       age,
