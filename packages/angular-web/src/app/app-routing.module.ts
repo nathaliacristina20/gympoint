@@ -1,12 +1,11 @@
+import { AuthenticationGuardService } from './shared/services/authentication-guard.service';
 import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginComponent } from './authentication/components/login/login.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: 'home', component: HomeComponent },
-  { path: '', redirectTo: 'login', pathMatch: 'full' }
+  { path: '', pathMatch: 'full', redirectTo: 'home', },
+  { path: 'home', component: HomeComponent, canActivate: [ AuthenticationGuardService ] },
 ];
 
 @NgModule({

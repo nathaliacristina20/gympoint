@@ -1,3 +1,3 @@
 import app from './app';
 
-app.listen(3333, () => console.log('Servidor iniciado com sucesso'));
+app.listen(3333, () => console.log('Listen server in port 3333'));
