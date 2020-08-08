@@ -6,7 +6,7 @@
   "author": "Nathalia Cristina <nathaliacristina20@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server",
+    "dev": "nodemon src/server NODE_ENV=development",
     "dev:debug": "nodemon --inspect src/server",
     "migrations": "sequelize db:migrate",
     "seeds": "sequelize db:seed:all"
