@@ -56,7 +56,7 @@ Este projeto foi proposto ser desenvolvido com React.js, porém decidi fazer uma
 
 Você pode realizar requisições REST através do Insomnia
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarber&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fnathaliacristina20%2Fgympoint%2Fmaster%2Finsomnia.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Gympoint&uri=https%3A%2F%2Fgithub.com%2Fnathaliacristina20%2Fgympoint%2Fblob%2Ffeature%2Fmonorepo%2F.github%2FInsomnia_2020-08-07.json)
 
 <strong>Web</strong>
 
@@ -64,8 +64,8 @@ Você pode realizar requisições REST através do Insomnia
 - Sua aplicação está rodando, vá até http://localhost:4200 no seu browser
 - Utilize as informações abaixo para realizar o login:
 
-<p>user: admin@gympoint.com</p>
-<p>senha: 123456</p>
+user: **admin@gympoint.com** <br />
+senha: **123456**
 
 <strong>Mobile</strong>
 
