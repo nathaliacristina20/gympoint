@@ -12,7 +12,11 @@ Plataforma de gerenciamento para academias
 
 ## Preview
 
-<img src=".github/gympoint.png">
+**Projeto em andamento**
+
+<h1 align="center">
+  <img width="300" align="center" src=".github/spinner.gif">
+</h1>
 
 ## :computer: Sobre o projeto
 
