@@ -35,6 +35,7 @@ Este projeto foi proposto ser desenvolvido com React.js, porém decidi fazer uma
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/)
+- [Mailtrap](https://mailtrap.io/)
 - [PostgreSQL](https://www.postgresql.org/) 
 - Emulador Mobile ou dispositivo fisíco 
 
@@ -50,7 +51,7 @@ Este projeto foi proposto ser desenvolvido com React.js, porém decidi fazer uma
 - Execute ```yarn``` para instalar as dependências de todos pacotes
 - Vá até o diretório ```cd packages/server```
 - Copie o arquivo .env.example executando ```cp .env.example .env``` para linux ou mac e ```copy .env.example .env``` para windows
-- Abra o arquivo .env e preencha com suas variáveis de ambiente do seu banco de dados
+- Abra o arquivo .env e preencha com suas variáveis de ambiente
 - Execute ```yarn migrations``` para rodar as migrations e ```yarn seeds``` para executar os seeds da aplicação
 - Execute ```yarn dev``` para rodar o servidor
 
