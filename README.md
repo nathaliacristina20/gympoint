@@ -10,13 +10,13 @@ Plataforma de gerenciamento para academias
   <a href="#computer-sobre-o-projeto">Sobre o projeto</a> | <a href="#rocket-tecnologias">Tecnologias</a> | <a href="#books-guia-de-instalação-e-execução">Guia de instalação e execução</a> | <a href="#page_with_curl-licença">Licença</a>
 </p>
 
-## Preview
+## :nail_care: Preview
 
 **Projeto em andamento**
 
-<h1 align="center">
-  <img width="300" align="center" src=".github/spinner.gif">
-</h1>
+<p align="center">
+  <img width="300" alt="Gif de um loader" src=".github/spinner.gif" align="center">
+</p>
 
 ## :computer: Sobre o projeto
 
