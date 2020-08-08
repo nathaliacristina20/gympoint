@@ -20,14 +20,13 @@ O Gympoint é um gerenciador para academias. O backend é uma REST Api onde forn
 
 A versão web é composta pelo gerenciamento de alunos, matrículas, planos e pedidos de ajuda dos alunos. Já a versão mobile foi pensada para os alunos realizerem checkIn e solicitarem ajuda para a academia. 
 
-Inicialmente este projeto foi desenvolvido apenas com a versaão web em React, porém decidi fazer uma versão em Angular para entendimento de diferenças de ambos ecosistemas. 
+Este projeto foi proposto ser desenvolvido com React.js, porém decidi fazer uma versão em Angular para entendimento de diferenças de ambos ecosistemas. 
 
 ## :rocket: Tecnologias
-  
-- React
-- React Native
+ 
 - Angular
 - Node.js
+- React Native
 
 ## :books: Guia de instalação e execução
 
@@ -39,9 +38,11 @@ Inicialmente este projeto foi desenvolvido apenas com a versaão web em React, p
 - [PostgreSQL](https://www.postgresql.org/) 
 - Emulador Mobile ou dispositivo fisíco 
 
+<blockquote>Acesse <a href="https://react-native.rocketseat.dev">aqui</a> a documentação da Rocketseat com o passo-a-passo e erros mais comuns para montar seu ambiente Mobile.</blockquote>
+
 ### Como executar
 
-<i>Antes de executar estes passos, você precisa ter uma instância do banco listado acima ou um Docker com as imagem e o database criado.</i>
+<i>Antes de executar estes passos, você precisa ter um database no PostgreSQL ou em uma imagem do Docker.</i>
 
 <strong>Server</strong>
 
@@ -59,7 +60,7 @@ Você pode realizar requisições REST através do Insomnia
 
 <strong>Web</strong>
 
-- Vá para o diretório da versão web escolhida Angular ou React e rode ```yarn start``` para executar a aplicação
+- Vá para o diretório da versão web e rode ```yarn start``` para executar a aplicação
 - Sua aplicação está rodando, vá até http://localhost:4200 no seu browser
 - Utilize as informações abaixo para realizar o login:
 
